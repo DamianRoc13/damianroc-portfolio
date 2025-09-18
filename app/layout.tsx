@@ -84,10 +84,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    domain: "damianroc-portfolio.vercel.app",
-    url: "https://damianroc-portfolio.vercel.app/",
+    site: "@damianroc13",
     title: "Damian Roc Olivo Barzallo - Desarrollador Full Stack",
-    description: "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en tecnologías web modernas. React, NestJS, Python, PostgreSQL.",
+    description:
+      "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en tecnologías web modernas. React, NestJS, Python, PostgreSQL.",
     images: ["https://damianroc-portfolio.vercel.app/portafolio.png"],
   },
   verification: {
