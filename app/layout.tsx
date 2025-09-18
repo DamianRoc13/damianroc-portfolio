@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     url: "https://damianroc-portfolio.vercel.app/",
     title: "Damian Roc Olivo Barzallo - Desarrollador Full Stack",
     description:
-      "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en tecnologías web modernas. React, NestJS, Python, PostgreSQL.",
+      "Portafolio personal de Damian Roc Olivo Barzallo",
     siteName: "Damian Roc Olivo Barzallo",
     images: [
       {
