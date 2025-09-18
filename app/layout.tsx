@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Damian Roc Olivo Barzallo",
   },
   description:
-    "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en React, NestJS, Python, PostgreSQL y tecnologías web modernas. Cuenca, Ecuador.",
+    "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en tecnologías web modernas. React, NestJS, Python, PostgreSQL.",
   keywords: [
     "desarrollador full stack",
     "programador web",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   ],
   creator: "Damian Roc Olivo Barzallo",
   publisher: "Damian Roc Olivo Barzallo",
-  metadataBase: new URL("https://damian-portfolio.vercel.app"),
+  metadataBase: new URL("https://damianroc-portfolio.vercel.app"),
   alternates: {
     canonical: "/",
   },
@@ -68,19 +68,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "/",
+    url: "https://damianroc-portfolio.vercel.app/",
     title: "Damian Roc Olivo Barzallo - Desarrollador Full Stack",
     description:
       "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en tecnologías web modernas. React, NestJS, Python, PostgreSQL.",
     siteName: "Damian Roc Olivo Barzallo",
     images: [
       {
-        url: "/logo.svg",
-        width: 1024,
-        height: 1024,
-        alt: "Damian Roc Olivo Barzallo - Logo",
+        url: "https://damianroc-portfolio.vercel.app/portafolio.png",
+        width: 1200,
+        height: 630,
+        alt: "Damian Roc Olivo Barzallo - Portafolio",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    domain: "damianroc-portfolio.vercel.app",
+    url: "https://damianroc-portfolio.vercel.app/",
+    title: "Damian Roc Olivo Barzallo - Desarrollador Full Stack",
+    description: "Portafolio personal de Damian Roc Olivo Barzallo - Desarrollador Full Stack especializado en tecnologías web modernas. React, NestJS, Python, PostgreSQL.",
+    images: ["https://damianroc-portfolio.vercel.app/portafolio.png"],
   },
   verification: {
     google: "your-google-verification-code",
